@@ -9,3 +9,5 @@ vnetname = "myTerraformVnet"
 subnetname = "myTerraformSubnet"
 ipaddressname = "myTerraformIP"
 nsgname = "myTerraformNSG"
+
+nicname = "myTerraformNIC"
