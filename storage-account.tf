@@ -1,5 +1,12 @@
+resource "random_id" "randomId" {
+  keepers = {
+    resource_group = azurerm_resource_group.myTerraformRG.name
+  }
+  byte_length = 8 
+}
+
 resource "azurerm_storage_account" "myTerraformStorage" {
-  name                     = var.storagename
+  name                = "diag${random_id.randomID.hex}"
   resource_group_name = azurerm_resource_group.myTerraformRG.name
   location            = azurerm_resource_group.myTerraformRG.location
   account_tier             = "Standard"
