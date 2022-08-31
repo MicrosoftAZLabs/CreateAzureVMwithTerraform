@@ -11,3 +11,4 @@ ipaddressname = "myTerraformIP"
 nsgname = "myTerraformNSG"
 
 nicname = "myTerraformNIC"
+virtualmachinename= "myTerraformLinuxVM"
