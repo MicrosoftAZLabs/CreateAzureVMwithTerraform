@@ -12,3 +12,11 @@ variable "tags" {
       "Env" = "Test"
     }
 }
+variable "vnetname" {
+    type = string
+  
+}
+
+variable "subnet" {
+    type = string
+}

@@ -4,3 +4,6 @@ tags = {
   environment = "test"
   
 }
+
+vnetname = "myTerraformVnet"
+subnetname = "myTerraformSubnet"
