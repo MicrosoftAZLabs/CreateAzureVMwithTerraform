@@ -17,6 +17,6 @@ variable "vnetname" {
   
 }
 
-variable "subnet" {
+variable "subnetname" {
     type = string
 }
