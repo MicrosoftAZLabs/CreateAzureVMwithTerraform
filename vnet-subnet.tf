@@ -12,6 +12,6 @@ resource "azurerm_subnet" "myTerraformSubnet" {
   virtual_network_name = azurerm_virtual_network.myTerraformNetwork.name
   address_prefixes     = ["10.0.1.0/24"]
 
-  tags= var.tags
+ 
 
   }
