@@ -1,40 +1,40 @@
 variable "location" {
-    type= string
-    default = "East US"
+  type    = string
+  default = "East US"
 }
 variable "resourceGroupName" {
-    type = string
-    default = "myTerraformRG"
+  type    = string
+  default = "myTerraformRG"
 }
 variable "tags" {
-    type= map(any)
-    default = {
-      "Env" = "Test"
-    }
+  type = map(any)
+  default = {
+    "Env" = "Test"
+  }
 }
 variable "vnetname" {
-    type = string
-  
+  type = string
+
 }
 
 variable "subnetname" {
-    type = string
+  type = string
 }
 
 variable "ipaddressname" {
-    type = string
-  
+  type = string
+
 }
 variable "nsgname" {
-    type = string
-  
+  type = string
+
 }
 
 variable "nicname" {
-    type = string
-  
+  type = string
+
 }
 variable "virtualmachinename" {
-    type = string
-  
+  type = string
+
 }

@@ -4,5 +4,5 @@ resource "azurerm_public_ip" "myTerraformIP" {
   location            = azurerm_resource_group.myTerraformRG.location
   allocation_method   = "Dynamic"
 
-  tags =var.tags
+  tags = var.tags
 }

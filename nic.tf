@@ -6,7 +6,7 @@ resource "azurerm_network_interface" "myTerraformNIC" {
     name                          = "internal"
     subnet_id                     = azurerm_subnet.myTerraformSubnet.id
     private_ip_address_allocation = "Dynamic"
-    public_ip_address_id = azurerm_public_ip.myTerraformIP.id
+    public_ip_address_id          = azurerm_public_ip.myTerraformIP.id
   }
   tags = var.tags
 }

@@ -5,7 +5,7 @@ resource "azurerm_linux_virtual_machine" "myTerraformLinuxVM" {
   size                = "Standard_F2"
   admin_username      = "adminuser"
   network_interface_ids = [
-    azurerm_network_interface.myTerraformNIC.id ,
+    azurerm_network_interface.myTerraformNIC.id,
   ]
 
   admin_ssh_key {
@@ -25,7 +25,7 @@ resource "azurerm_linux_virtual_machine" "myTerraformLinuxVM" {
     version   = "latest"
   }
 
-  computer_name = var.virtualmachinename
+  computer_name                   = var.virtualmachinename
   disable_password_authentication = true
 }
 

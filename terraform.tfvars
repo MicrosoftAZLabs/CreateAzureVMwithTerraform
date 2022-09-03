@@ -1,14 +1,14 @@
-location = "East US"
+location          = "East US"
 resourceGroupName = "myTerraformRG"
 tags = {
   environment = "test"
-  
+
 }
 
-vnetname = "myTerraformVnet"
-subnetname = "myTerraformSubnet"
+vnetname      = "myTerraformVnet"
+subnetname    = "myTerraformSubnet"
 ipaddressname = "myTerraformIP"
-nsgname = "myTerraformNSG"
+nsgname       = "myTerraformNSG"
 
-nicname = "myTerraformNIC"
-virtualmachinename= "myTerraformLinuxVM"
+nicname            = "myTerraformNIC"
+virtualmachinename = "myTerraformLinuxVM"
